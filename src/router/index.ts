@@ -4,7 +4,7 @@ import * as SearchControler from '../controlers/searchControler';
 
 const router = Router();
 
-router.get('/', PageControler.home);
+router.get('/home', PageControler.home);
 router.get('/dogs', PageControler.dogs);
 router.get('/cats', PageControler.cats);
 router.get('/fishes', PageControler.fishes);
